@@ -28,6 +28,8 @@ category_selected_df = category_df.select("categoryid", "categoryname")
 # Join the tables on categoryid column
 inner_df = product_selected_df.join(category_selected_df, product_selected_df["product_categoryid"] == category_selected_df["categoryid"], "inner")
 
+#inner_df= inner_df.select("productid", "productname", "categoryid", "unit_price")
+
 # Log the count of rows in the joined DataFrame
 glueContext.get_logger().info("Number of rows in the inner joined DataFrame: {}".format(inner_df.count()))
 

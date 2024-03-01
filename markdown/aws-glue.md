@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AWS Glue
 > Jay Kumsi
 
@@ -13,9 +12,9 @@
 * Glue PySpark DataFrame Joins two small tables,2 large tables,2 very large tables
 * Glue PySpark DataFrame Joins multiple tables joins(3 or more)
 * Glue PySpark DataFrame Joins Remove duplicate columns when joined
-* Glue Generate PySpark DataFrame from Single JSON, Multiple JSONs without Athena / Crawler
-* Glue Generate PySpark DataFrame from Single CSV, Multiple CSVs without Athena / Crawler
-* Glue Generate PySpark DataFrame from Single Parquet, Multiple Parquets without Athena / Crawler
+* Glue Generate PySpark DataFrame from Single JSON, Multiple JSON files in S3 Buckets
+* Glue Generate PySpark DataFrame from Single CSV, Multiple CSVs files in S3 Buckets
+* Glue Generate PySpark DataFrame from Single Parquet, Multiple Parquets files in S3 Buckets
 * Glue Generate PySpark DataFrame from RDBMS (Oracle, SQL Server, Postgresql, MySQL)
 * Glue Generate PySpark DataFrame from DynamoDB
 * Glue PySpark DataFrame Select, Rename Columns in Select
@@ -42,28 +41,3 @@
 * Glue PySpark DataFrame caching
 * Glue PySpark DataFrame performance tuning
 
-=======
-# AWS Glue
-> Jay Kumsi
-
-## Glue Topics
-*Intro 
-* What IAM Roles are needed
-* [Crawler](AWS-GLUE-Crawler.md).
-   * Source
-   * Target
-* Glue with PySpark
-    * Source S3 (CSV,Parquet,JSON,AWS ION) - Target(S3,RDBMS,DynamoDB)
-        * IAM roles needed
-        * Code Structure
-    * Source RDBMS (Oracle, SQL Server, Postgresql) - Target(S3,RDBMS,DynamoDB) 
-    * Source Dynamo - Target(S3,RDBMS,DynamoDB)
-* Glue PySpark DataFrame Joins (Inner, Left, Right, Full Outer)
-* Glue PySpark DataFrame Group By
-* Glue PySpark DataFrame Analytical Functions
-* Glue PySpark DataFrame Order By
-* Glue PySpark DataFrame Having Clause
-* Glue PySpark DataFrame Filter Conditions IN, NOT IN, >,<,<>
-* Glue PySpark DataFrame Distinct, Psuedo Colums, Date, DateTime, DateTime TimeZone
-* Glue PySpark DataFrame Handling: Null, isnull, not null
->>>>>>> 38ff75ddde0a9bd3c09c78d3b88f592404b6c95c
