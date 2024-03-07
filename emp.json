@@ -1,0 +1,5 @@
+[
+    {"emp_id": 1, "emp_name": "John Doe", "join_date": "2022-01-01", "dept_id": 101, "salary": 5000.00},
+    {"emp_id": 2, "emp_name": "Jane Smith", "join_date": "2022-02-15", "dept_id": 102, "salary": 6000.50},
+    {"emp_id": 3, "emp_name": "Alice Johnson", "join_date": "2022-03-20", "dept_id": 101, "salary": 5500.75}
+}
