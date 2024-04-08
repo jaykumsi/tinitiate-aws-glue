@@ -7,17 +7,19 @@
 * [Crawler](AWS-GLUE-Crawler.md).
    * Source
    * Target
+* Glue layers ( Pending)   
+* Glue Referencing from other python files ( Pending)   
 * Glue with PySpark IAM Roles
 * Glue PySpark DataFrame Joins (Inner, Left, Right, Full Outer,cross join) - Filename :: ti-pyspark-joins.py
 * Glue PySpark DataFrame Joins two small tables,2 large tables,2 very large tables
 * Glue PySpark DataFrame Joins multiple tables joins(3 or more)
-* Glue PySpark DataFrame Joins Remove duplicate columns when joined
+* Glue PySpark DataFrame Joins Remove duplicate columns when joined -- Done
 * Glue Generate PySpark DataFrame from Single JSON, Multiple JSON files in S3 Buckets-- done
 * Glue Generate PySpark DataFrame from Single CSV, Multiple CSVs files in S3 Buckets-- done
 * Glue Generate PySpark DataFrame from Single Parquet, Multiple Parquets files in S3 Buckets-- done
 * Glue Generate PySpark DataFrame from RDBMS (Oracle, SQL Server, Postgresql, MySQL)
 * Glue Generate PySpark DataFrame from DynamoDB
-* Glue PySpark DataFrame Select, Rename Columns in Select
+* Glue PySpark DataFrame Select, Rename Columns in Select - Done
 * Glue PySpark DataFrame Group By --done
 * Glue PySpark DataFrame Analytical Functions --done
 * Glue PySpark DataFrame Order By --done

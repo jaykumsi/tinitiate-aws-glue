@@ -1,10 +1,11 @@
 from pyspark.context import SparkContext
 from awsglue.context import GlueContext
 from pyspark.sql import SparkSession
+from awsglue.transforms import *
 import logging
 
 # Create SparkSession
-spark = SparkSession.builder.appName("Select Columns").getOrCreate()
+#spark = SparkSession.builder.appName("Select Columns").getOrCreate()
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -43,7 +44,7 @@ joined_df = product_selected_df.join(
     category_selected_df,
     product_selected_df["product_categoryid"] == category_selected_df["categoryid"],
     "inner"
-)
+).select(product_selected_df["*"], category_selected_df["categoryname"])
 
 # Drop the duplicate categoryid column
 joined_df = joined_df.drop("categoryid")
