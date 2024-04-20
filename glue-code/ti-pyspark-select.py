@@ -1,3 +1,7 @@
+# DDL 
+
+## Glue Code
+
 from pyspark.context import SparkContext
 from awsglue.context import GlueContext
 from pyspark.sql import SparkSession
