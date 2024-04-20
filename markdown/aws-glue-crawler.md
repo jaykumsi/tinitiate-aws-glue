@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AWS Glue Crawler
 > Jay Kumsi
 ## Glue Crawler
